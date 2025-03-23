@@ -1,0 +1,14 @@
+.container {
+  display: flex; /* Flexbox aktivieren */
+  align-items: center; /* Vertikal zentrieren */
+  width: 100%;
+}
+
+.container img {
+  margin-right: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.container .text {
+  white-space: nowrap; /* Zusätzliche Regel */
+  min-width: 200px; /* Zusätzliche Regel */
+}

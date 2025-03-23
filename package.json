@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "ls_emmet": "^1.0.9",
+    "pokeapi-js-wrapper": "^1.2.8",
+    "pokedex-promise-v2": "^4.2.1"
+  },
+  "scripts": {
+    "start": "node pokemon.js"
+  }
+}
