@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
-		<script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
-		<script src="brain.js"></script>
-		<link rel="stylesheet" href="index.css"/>
-		<body onload="init();">
-				
-				<h1> Test </h1>
-				<div id="test">hdwah</div>
-				<button type="button" onclick="test();">Click Me!</button>
-				<br>
+	<head>
+		<meta charset="utf-8"> 
+		<link rel="stylesheet" href="/index_o.css"/>
+	</head>
+	<body class="bg-[#0e121c] text-white text-[3vw]">
+		<div class="w-1/2 mx-auto my-auto bg-gray-800 rounded-xl">
+			<div class="">
+				<form class="" id="searchPokemonForm">
+					<label for="pokemonName"></label>
+					<input class="outline-0 w-[100%] text-center border-white/10 border-2 p-2 rounded-xl" id="pokemonName"/>
+				</form>
+			</div>
+		</div>
+		<div class="w-1/8 mx-auto my-auto rounded-xs bg-gray-800 text-center">
+			<button id="genPokemonButton">RANDOM</button>
+		</div>
+		<br>
+		<!-- HIER KOMMEN DIE POKEMON REIN -->
+		<div id="root" class="flex-col w-1/2 mx-auto my-auto">
+		</div>
 
-				<div class="container">
-						<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="Bildbeschreibung">
-						<div class="text">
-								<h2>Überschrift</h2>
-								<p>Hier steht dein Text...</p>
-						</div>
-				</div>
-		</body>
+
+	</body>
+
+	<script src="/brain.js"></script>
 
 </html>

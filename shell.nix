@@ -9,9 +9,11 @@ pkgs.mkShellNoCC {
 		typescript-language-server
 		typescript
 		prettierd
+		lsd
   ];
 
   shellHook = ''
 		export PATH=$PATH:/home/luca/3party;
+		alias ls=lsd;
   '';
 }
