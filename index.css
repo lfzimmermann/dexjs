@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.container {
+  display: flex; /* Flexbox aktivieren */
+  align: center;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid black;
+  align-items: center; /* Vertikal zentrieren */
+  width: 50%;
+}
+
+.container img {
+  margin-right: 20px; /* Abstand zwischen Bild und Text */
+}
+
+.description-text {
+  text-wrap: wrap;
+}
+
+.container .text {
+  white-space: nowrap; /* Zusätzliche Regel */
+  min-width: 200px; /* Zusätzliche Regel */
+  max-width: 30%;
+}

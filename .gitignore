@@ -1,0 +1,4 @@
+shell.nix
+log.txt
+node_modules
+package*

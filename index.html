@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index_o.css"/>
+	</head>
+	<body onload="genPokemonFromGeneration();" class="bg-[#0e121c] text-gray-100 text-[5vw] lg:text-[3vw]">
+		<div>
+			<div class="w-4/5 md:w-2/3 lg:w-1/2 mx-auto my-auto ">
+				<div class="flex-col">
+					<form class="mt-5 bg-gray-800 rounded-xl mx-auto my-auto" id="searchPokemonForm">
+						<label for="pokemonName"></label>
+						<input class="z-999 outline-0 w-[100%] text-center border-white/10 border-2 p-2 rounded-xl" id="pokemonName"/>
+					</form>
+					<div class="mt-5 ml-auto mr-auto" id="buttons">
+						<button class="border-white/10 border-2 bg-gray-800" id="resetSearchButton">RESET</button>
+						<button class="border-white/10 border-2 bg-gray-800" id="hideAllNotCaughtButton">HIDE NOT CAUGHT</button>
+						<button class="border-white/10 border-2 bg-gray-800" id="hideAllCaughtButton">HIDE CAUGHT</button>
+						<!-- <button class="border-white/10 border-2 bg-gray-800" id="genPokemonButton">GEN 1</button> -->
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- HIER KOMMEN DIE POKEMON REIN -->
+			<div id="root" class="flex-col w-4/5 md:w-2/3 lg:w-1/2 mx-auto my-auto z-1"/>
+		</div>
+
+
+	</body>
+
+	<script src="brain.js"></script>
+
+</html>
