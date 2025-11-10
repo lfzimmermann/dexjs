@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.15",
+    "express": "^4.21.2",
+    "ls_emmet": "^1.0.9",
+    "memory-cache": "^0.2.0",
+    "pokeapi-js-wrapper": "^1.2.8",
+    "pokedex-promise-v2": "^4.2.1",
+    "tailwindcss": "^4.0.15"
+  },
+  "scripts": {
+    "start": "node pokemon.js"
+  }
+}
